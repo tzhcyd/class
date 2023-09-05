@@ -1,0 +1,13 @@
+<view class = "container">
+    <view class = 'title'>第{{level}}关</view>
+    <canvas canvas-id = 'myCanvas'></canvas>
+    <view class="btnBox">
+        <button type="warn" bindtap="up" style="width: 90rpx; height: 90rpx; margin: 10rpx;">↑</button>
+        <view>
+            <button type="warn" bindtap="left" style="width: 90rpx; height: 90rpx; margin: 10rpx;">←</button>
+            <button type="warn" bindtap="down" style="width: 90rpx; height: 90rpx; margin: 10rpx;">↓</button>
+            <button type="warn" bindtap="right" style="width: 90rpx; height: 90rpx; margin: 10rpx;">→</button>
+        </view>
+    </view>
+    <button type="warn" style="margin: 10rpx;" bindtap="restartGame">重新开始</button>
+</view>

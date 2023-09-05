@@ -1,0 +1,14 @@
+canvas{
+    border: 1rpx solid;
+    width: 320px;
+    height: 320px;
+}
+.btnBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btnBox view{
+    display: flex;
+    flex-direction: row;
+}
